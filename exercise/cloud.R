@@ -5,7 +5,7 @@
 ###############################################################################
 
 
-setwd("/home/evberghe/.architect/workspace/analedge/week_7/homework_cloud")
+setwd("/home/evberghe/workspace/gitutorial/exercise")
 tweets <- read.csv("tweets.csv", stringsAsFactors=FALSE)
 
 library(tm)
