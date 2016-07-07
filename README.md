@@ -1,6 +1,6 @@
 # gitutorial
 
-trying to come to grips with Git, Github, EGit and StatET.
+Trying to come to grips with Git, Github, EGit and StatET.
 
 Following a number of tutorials:
 <ul>
