@@ -1,7 +1,7 @@
 # Exercise from Analytics edge, now repurposed as example script to play with Git
 # 
 # Author: evberghe
-###############################################################################
+#############################################################################
 
 
 trial <- read.csv("clinical_trial.csv", stringsAsFactors=FALSE)
