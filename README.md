@@ -1,4 +1,4 @@
-# README
+# gitutorial
 
 trying to come to grips with Git, Github, EGit and StatET.
 
