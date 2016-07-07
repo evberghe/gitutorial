@@ -1,4 +1,4 @@
-# TODO: Add comment
+# Exercise from Analytics edge, now repurposed as example script to play with Git
 # 
 # Author: evberghe
 ###############################################################################
