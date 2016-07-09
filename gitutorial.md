@@ -10,8 +10,13 @@ I started following the EGit tutorial available on <a href='http://eclipsesource
 
 But then section 10, 'Cloning Repositories', comes a bit as a surprise - I was expecting instruction on how to push the test repository to github; instead the authors explain how to create a fresh repository on github, and how to download that to a local repository. Followed section 10 of the tutorial, downloading one of my existing projects (the <a href='https://github.com/evberghe/harmonograph' target='_blank'>harmonograph</a>) to a local repository. I downloaded to a directory that was a subdirectory of an existing project. Worked, but apparently Eclipse doesn't recognise the newly created directory as a repository directory in the project browser- there are no repository 'decorations' on the icons of the directory or its contents; and right-clicking doesn't give me the right context menu. Everything is fine, however, in the 'Git Repositories' window.
 
-Playing around with branches - will write a report on my experiences here later. Having too much fun right now to spend time on useful things.
+To upload a local repository to Github: first create a repository with the same name as the local one on Github. Place the URL of the newly created github repository on the clipboard. Then in Eclipse, right-click the repository directory, go to team > push in the context menu, and enter the URL when prompted.
+
+Creating branches works as advertised. When checking out a branch, content created in another branch is not visible; edits done in another branch are equally invisible. Seems to make a lot of sense. Still do do some edits that require more sophisticated merging of branches - only done edits so far that could be merged automatically (and I assume that this would be the best way to work: make sure there is always only one person working on a branch/file.)
+
+
+
 
 ## notes
 
-<b id="f1">1</b> For non-eclipse users: Eclipse also builds its own history file - it is always possible to compare recent versions of scripts with older versions, in a neat side-by-side view of old <i>vs</i> new, with plenty of tools to merge the content of the two versions. Git uses the same side-by-side views as core-Eclipse. Using Git, we basically have an unlimited history of our own edits, and can also compare our version of the scripts with edits done by others.[↩](#a1)
+<b id="f1">1</b> For non-eclipse users: Eclipse also builds its own history file - it is always possible to compare recent versions of scripts with older versions, in a neat side-by-side view of old <i>vs</i> new, with plenty of tools to merge the content of the two versions. Git uses the same side-by-side views as core-Eclipse. Using Git, we basically have an unlimited history of our own edits, and can also compare our version of the scripts with edits done by others.<a href="#a1">↩</a>
