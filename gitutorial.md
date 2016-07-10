@@ -16,7 +16,8 @@ To upload a local repository to Github: first create a repository with the same 
 
 Creating branches works as advertised. When checking out a branch, content created in another branch is not visible; edits done in another branch are equally invisible. Seems to make a lot of sense. Still do do some edits that require more sophisticated merging of branches - only done edits so far that could be merged automatically (and I assume that this would be the best way to work: make sure there is always only one person working on a branch/file.)
 
-
+Mylyn is a task manager, installed by default together with Eclipse. There is a tutorial on its use on the <a href='http://wiki.eclipse.org/EGit/GitHub/User_Guide' target='_blank'>Eclipse website</a> - but doesn't corespond with my eclipse installation. According to the tutorial, 'Github tasks repositories' should be available under 'file > import...' but it isn't.
+ 
 
 
 ## notes
